@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklizhenyu_official=globalThis.webpackChunklizhenyu_official||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u5360\u4f4d","permalink":"/blog/first-blog-post","unlisted":false,"date":"2025-10-20T00:00:00.000Z"}]}')}}]);

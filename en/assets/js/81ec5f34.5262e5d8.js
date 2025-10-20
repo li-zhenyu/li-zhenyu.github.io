@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklizhenyu_official=globalThis.webpackChunklizhenyu_official||[]).push([[882],{6341:a=>{a.exports=JSON.parse('{"authors":[{"name":"\u674e\u632f\u5b87","page":{"permalink":"/en/blog/authors/li-zhenyu"},"imageURL":"img/avatar.png","key":"li-zhenyu","count":1}]}')}}]);

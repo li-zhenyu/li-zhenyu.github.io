@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>李振宇的主页 Blog</title>
+        <link>https://li-zhenyu.github.io/blog</link>
+        <description>李振宇的主页 Blog</description>
+        <lastBuildDate>Mon, 20 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[占位]]></title>
+            <link>https://li-zhenyu.github.io/blog/first-blog-post</link>
+            <guid>https://li-zhenyu.github.io/blog/first-blog-post</guid>
+            <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[尚无内容。]]></description>
+            <content:encoded><![CDATA[<p>尚无内容。</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
