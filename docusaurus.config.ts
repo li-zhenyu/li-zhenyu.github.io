@@ -104,8 +104,8 @@ const config: Config = {
           title: '文档',
           items: [
             {
-              label: '民法总则重述',
-              to: '/docs/intro',
+              label: '速通民法总则手册',
+              to: '/docs/civil',
             },
           ],
         },
