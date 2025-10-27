@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #a5a5fb;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* inline code（行内代码）*/
+.markdown code,
+.docMarkdown code,
+p code,
+li code {
+  font-family: var(--ifm-font-family-base, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif) !important;
+  font-weight: 400;
+  font-size: inherit;
+  padding: 0.15em 0.35em;
+  border-radius: 0.25rem;
+}
