@@ -34,7 +34,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -104,7 +104,7 @@ const config: Config = {
           title: '文档',
           items: [
             {
-              label: '速通民法总则手册',
+              label: '奶龙都能看懂的民法总则速通手册',
               to: '/docs/civil',
             },
           ],
