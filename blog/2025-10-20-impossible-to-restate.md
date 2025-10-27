@@ -1,6 +1,6 @@
 ---
 slug: impossible-to-restate
-title: 《奶龙都能看懂的民法总则速通手册》更新说明
+title: 《奶龙都能看懂的民法总则手册》更新说明
 authors: [li-zhenyu]
 ---
 
