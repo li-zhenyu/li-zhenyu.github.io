@@ -4,8 +4,6 @@
 
 https://li-zhenyu.pages.dev
 
-https://li-zhenyu.github.io
-
 <!-- # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
