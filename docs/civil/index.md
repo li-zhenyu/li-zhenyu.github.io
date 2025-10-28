@@ -18,9 +18,9 @@ title: 奶龙都能看懂的民法总则手册
 
 引用判决书，如果没有特别说明，均为来自裁判文书网或者人民法院案例库。如果是指导案例的，记作指导案例某某号，如果不是指导案例，以案号引称。如果裁判文书被网站撤下，请通过这个教程的[Github Repo](http://github.com/li-zhenyu/civil)向我反馈或者以文末邮箱联系，十分感谢。
 
-Docusaurus预设了五种Admonition，分别是note、tip、info、warning、danger。这里用note代表举例说明和案例讨论，用tip代表值得注意的技巧，用info代表与正文的内容有关，辅助理解但重要性不大的补充信息，warning和danger还没想好如何使用。
+Docusaurus预设了五种admonition，分别是note、tip、info、warning、danger。这里用note代表举例说明和案例讨论，用tip代表值得注意的技巧，用info代表与正文的内容有关，辅助理解但重要性不大的补充信息，warning和danger还没想好如何使用。
 
-这五种Admonition分别长这样：
+这五种admonition分别长这样：
 
 :::note
 我是note。我用于代表举例说明和案例讨论。
