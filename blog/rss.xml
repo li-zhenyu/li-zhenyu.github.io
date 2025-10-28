@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>李振宇的主页 Blog</title>
-        <link>https://li-zhenyu.github.io/blog</link>
+        <link>https://li-zhenyu.pages.dev/blog</link>
         <description>李振宇的主页 Blog</description>
         <lastBuildDate>Mon, 20 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[《奶龙都能看懂的民法总则手册》更新说明]]></title>
-            <link>https://li-zhenyu.github.io/blog/impossible-to-restate</link>
-            <guid>https://li-zhenyu.github.io/blog/impossible-to-restate</guid>
+            <link>https://li-zhenyu.pages.dev/blog/impossible-to-restate</link>
+            <guid>https://li-zhenyu.pages.dev/blog/impossible-to-restate</guid>
             <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。]]></description>
             <content:encoded><![CDATA[<p>我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。</p>

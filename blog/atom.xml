@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://li-zhenyu.github.io/blog</id>
+    <id>https://li-zhenyu.pages.dev/blog</id>
     <title>李振宇的主页 Blog</title>
     <updated>2025-10-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://li-zhenyu.github.io/blog"/>
+    <link rel="alternate" href="https://li-zhenyu.pages.dev/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
-    <icon>https://li-zhenyu.github.io/img/avatar.ico</icon>
+    <icon>https://li-zhenyu.pages.dev/img/avatar.ico</icon>
     <entry>
         <title type="html"><![CDATA[《奶龙都能看懂的民法总则手册》更新说明]]></title>
-        <id>https://li-zhenyu.github.io/blog/impossible-to-restate</id>
-        <link href="https://li-zhenyu.github.io/blog/impossible-to-restate"/>
+        <id>https://li-zhenyu.pages.dev/blog/impossible-to-restate</id>
+        <link href="https://li-zhenyu.pages.dev/blog/impossible-to-restate"/>
         <updated>2025-10-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。]]></summary>
         <content type="html"><![CDATA[<p>我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。</p>
