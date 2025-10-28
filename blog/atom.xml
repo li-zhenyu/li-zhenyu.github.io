@@ -8,12 +8,16 @@
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://li-zhenyu.github.io/img/avatar.ico</icon>
     <entry>
-        <title type="html"><![CDATA[占位]]></title>
-        <id>https://li-zhenyu.github.io/blog/first-blog-post</id>
-        <link href="https://li-zhenyu.github.io/blog/first-blog-post"/>
+        <title type="html"><![CDATA[《奶龙都能看懂的民法总则手册》更新说明]]></title>
+        <id>https://li-zhenyu.github.io/blog/impossible-to-restate</id>
+        <link href="https://li-zhenyu.github.io/blog/impossible-to-restate"/>
         <updated>2025-10-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[尚无内容。]]></summary>
-        <content type="html"><![CDATA[<p>尚无内容。</p>]]></content>
+        <summary type="html"><![CDATA[我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。]]></summary>
+        <content type="html"><![CDATA[<p>我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。</p>
+<p>介绍到“自然人”一章的时候，我发现“自然人”这章规定的内容，高度依赖于法律行为相关的法律规范。因为这一部分本身不是所谓的“人法”，而只是权利和行为法律规范中关于自然人的部分。</p>
+<p>所以打算把写作思路调整一下。择日重新写一写。我觉得应该考虑改名叫做“速通民法总则手册”之类的。因为写这个文档目的就是想给零基础的读者阅读的，写得尽量浅显，尽量方便快速上手。虽然这样的读者很少。但是我本身就是基于兴趣来整理这个文档，想要服务于不了解但是感兴趣的读者。</p>
+<p>总之我坦言，这个文档的写作难度远超过我的预期。暂时不打算放弃，等我仔细研究一下。</p>
+<p>算了，先降低自己的预期，把这个手册改名为《奶龙都能看懂的民法总则手册》好了。</p>]]></content>
         <author>
             <name>李振宇</name>
         </author>
