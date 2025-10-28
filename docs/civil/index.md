@@ -16,6 +16,8 @@ title: 奶龙都能看懂的民法总则手册
 
 > 【27-2-3】其他愿意担任监护人的个人或者组织，但是须经未成年人住所地的居民委员会、村民委员会或者民政部门同意。
 
+引用判决书，如果没有特别说明，均为来自裁判文书网或者人民法院案例库。如果是指导案例的，记作指导案例某某号，如果不是指导案例，以案号引称。如果裁判文书被网站撤下，请通过[li-zhenyu/civil](http://github.com/li-zhenyu/civil)向我反馈或者以文末邮箱联系，十分感谢。
+
 Docusaurus预设了五种Admonition，分别是note、tip、info、warning、danger。这里用note代表举例说明和案例讨论，用tip代表值得注意的技巧，用info代表与正文的内容有关，辅助理解但重要性不大的补充信息，warning和danger还没想好如何使用。
 
 这五种Admonition分别长这样：
@@ -44,3 +46,4 @@ Docusaurus预设了五种Admonition，分别是note、tip、info、warning、dan
 
 这个教程把《最高人民法院关于适用〈中华人民共和国民法典〉总则编若干问题的解释》简称为《总则编解释》。其他的司法解释，也可以通过类似方式加以简称。
 
+教程的源代码发布在Github上，作者保留著作、修改、发布的权利，但允许规范且无偿地转载，营利使用须经作者授权。这个教程是我业余时间编写维护，体例、内容、文字等，难免有所不周。欢迎读者在[Github](http://github.com/li-zhenyu/civil)（http://github.com/li-zhenyu/civil）上提出Issue以反馈错误、提出问题、给予建议，不会使用Github的读者，也可以通过[我的邮箱](mailto:lizhenyu66666666@outlook.com)（lizhenyu66666666@outlook.com）给予帮助。十分感谢！
