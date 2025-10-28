@@ -18,11 +18,15 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install pnpm
+        run: npm install pnpm -g
 
-      - name: Build Docusaurus
-        run: npm run build
+      - name: Install Docusaurus
+        run: pnpm install
+      
+      - name: Build Docusaurus site
+        run: pnpm build
+      
 
       - name: Deploy to GitHub Pages (master branch)
         uses: peaceiris/actions-gh-pages@v4
