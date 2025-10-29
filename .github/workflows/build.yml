@@ -32,11 +32,10 @@ jobs:
           cache: 'pnpm'
 
       - name: Install Docusaurus
-        run: |
-          TZ='Asia/Shanghai' pnpm install
+        run: pnpm install
       
       - name: Build Docusaurus site
-        run: pnpm build
+        run: TZ='Asia/Shanghai' pnpm build
       
 
       - name: Deploy to GitHub Pages (master branch)
