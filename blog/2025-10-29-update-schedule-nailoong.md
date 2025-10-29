@@ -1,5 +1,5 @@
 ---
-slug: impossible-to-restate
+slug: update-schedule-nailoong
 title: 《奶龙都能看懂的民法总则手册》连载安排
 authors: [li-zhenyu]
 ---
