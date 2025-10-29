@@ -2,22 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://li-zhenyu.pages.dev/blog</id>
     <title>李振宇的主页 Blog</title>
-    <updated>2025-10-20T00:00:00.000Z</updated>
+    <updated>2025-10-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://li-zhenyu.pages.dev/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://li-zhenyu.pages.dev/img/avatar.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[《奶龙都能看懂的民法总则手册》连载安排]]></title>
+        <id>https://li-zhenyu.pages.dev/blog/impossible-to-restate</id>
+        <link href="https://li-zhenyu.pages.dev/blog/impossible-to-restate"/>
+        <updated>2025-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这几天一直在连载《奶龙都能看懂的民法总则手册》，十分上瘾。节奏很快的话，一些问题来不及打磨，兴趣也会很快耗尽，为了避免这种情况，想用一个时间表来自律一下。]]></summary>
+        <content type="html"><![CDATA[<p>这几天一直在连载《奶龙都能看懂的民法总则手册》，十分上瘾。节奏很快的话，一些问题来不及打磨，兴趣也会很快耗尽，为了避免这种情况，想用一个时间表来自律一下。</p>
+<table><thead><tr><th>周次（以周一的日期为标志）</th><th>更新内容</th><th>完成情况</th></tr></thead><tbody><tr><td>2025-10-27</td><td>更新自然人：民事权利能力和民事行为能力</td><td>已完成</td></tr><tr><td>2025-11-3</td><td>更新自然人：监护</td><td></td></tr><tr><td>2025-11-10</td><td>更新自然人：宣告失踪和宣告死亡</td><td></td></tr><tr><td>2025-11-17</td><td>更新法人：（待定）</td><td></td></tr><tr><td>2025-11-24</td><td>更新法人：（待定）</td><td></td></tr><tr><td>2025-12-1</td><td>更新非法人组织：（待定）</td><td></td></tr><tr><td>2025-12-8</td><td>审阅和修改民事主体部分三个章节</td><td></td></tr></tbody></table>]]></content>
+        <author>
+            <name>李振宇</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《奶龙都能看懂的民法总则手册》更新说明]]></title>
         <id>https://li-zhenyu.pages.dev/blog/impossible-to-restate</id>
         <link href="https://li-zhenyu.pages.dev/blog/impossible-to-restate"/>
         <updated>2025-10-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。]]></summary>
-        <content type="html"><![CDATA[<p>我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。</p>
-<p>介绍到“自然人”一章的时候，我发现“自然人”这章规定的内容，高度依赖于法律行为相关的法律规范。因为这一部分本身不是所谓的“人法”，而只是权利和行为法律规范中关于自然人的部分。</p>
-<p>所以打算把写作思路调整一下。择日重新写一写。我觉得应该考虑改名叫做“速通民法总则手册”之类的。因为写这个文档目的就是想给零基础的读者阅读的，写得尽量浅显，尽量方便快速上手。虽然这样的读者很少。但是我本身就是基于兴趣来整理这个文档，想要服务于不了解但是感兴趣的读者。</p>
-<p>总之我坦言，这个文档的写作难度远超过我的预期。暂时不打算放弃，等我仔细研究一下。</p>
-<p>算了，先降低自己的预期，把这个手册改名为《奶龙都能看懂的民法总则手册》好了。</p>]]></content>
+        <content type="html"><![CDATA[<p>这几天一直在连载《奶龙都能看懂的民法总则手册》，十分上瘾。节奏很快的话，一些问题来不及打磨，兴趣也会很快耗尽，为了避免这种情况，想用一个时间表来自律一下。</p>
+<table><thead><tr><th>周次（以周一的日期为标志）</th><th>更新内容</th><th>完成情况</th></tr></thead><tbody><tr><td>2025-10-27</td><td>更新自然人：民事权利能力和民事行为能力</td><td>已完成</td></tr><tr><td>2025-11-3</td><td>更新自然人：监护</td><td></td></tr><tr><td>2025-11-10</td><td>更新自然人：宣告失踪和宣告死亡</td><td></td></tr><tr><td>2025-11-17</td><td>更新法人：（待定）</td><td></td></tr><tr><td>2025-11-24</td><td>更新法人：（待定）</td><td></td></tr><tr><td>2025-12-1</td><td>更新非法人组织：（待定）</td><td></td></tr><tr><td>2025-12-8</td><td>审阅和修改民事主体部分三个章节</td><td></td></tr></tbody></table>]]></content>
         <author>
             <name>李振宇</name>
         </author>
