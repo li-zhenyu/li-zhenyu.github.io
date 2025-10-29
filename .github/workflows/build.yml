@@ -27,6 +27,12 @@ jobs:
         with:
           fetch-depth: 0
           ref: source
+          
+      - name: Fix detached HEAD for full git history
+        run: |
+          git fetch origin source --unshallow || true
+          git checkout source
+          git pull origin source
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
