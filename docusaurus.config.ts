@@ -142,7 +142,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `版权所有 © ${new Date().getFullYear()} 李振宇。构建以 Docusaurus。`,
+      copyright: `版权所有 © ${new Date().getFullYear()} 李振宇　由 Docusaurus 驱动`,
     },
     prism: {
       theme: prismThemes.github,
