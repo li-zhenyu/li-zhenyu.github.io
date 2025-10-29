@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunklizhenyu_official=globalThis.webpackChunklizhenyu_official||[]).push([[5820],{5820:(e,i,c)=>{c.d(i,{createArchitectureServices:()=>a.S});var a=c(3738);c(9932)}}]);
