@@ -32,7 +32,8 @@ jobs:
           cache: 'pnpm'
 
       - name: Install Docusaurus
-        run: pnpm install
+        run: |
+          TZ='Asia/Shanghai' pnpm install
       
       - name: Build Docusaurus site
         run: pnpm build
