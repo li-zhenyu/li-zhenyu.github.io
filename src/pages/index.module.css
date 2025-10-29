@@ -21,3 +21,26 @@
   align-items: center;
   justify-content: center;
 }
+
+
+.heroBanner {
+  /* background: var(--ifm-background-color);  */
+  /* 背景继承主题 */
+  color: var(--ifm-font-color-base);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.heroBanner .hero__title {
+  /* color: var(--ifm-color-primary);  */
+  /* ✅ 标题用主题强调色 */
+  font-weight: 700;
+}
+
+.heroBanner .hero__subtitle {
+  /* color: var(--ifm-color-emphasis-700); */
+   /* ✅ 副标题用柔和字体色 */
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}

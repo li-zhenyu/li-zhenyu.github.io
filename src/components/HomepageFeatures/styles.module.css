@@ -9,3 +9,42 @@
   height: 200px;
   width: 200px;
 }
+
+.docsCard {
+  display: block;
+  text-align: left;
+  height: 100%;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  /* ✅ 默认 Docusaurus 风格 */
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background-color: var(--ifm-background-surface-color);
+  box-shadow: var(--ifm-card-shadow);
+  color: var(--ifm-font-color-base); /* 继承 Docus 默认字体色 */
+}
+
+.docsCard:hover {
+  transform: scale(1.01,1.01);
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: var(--ifm-color-primary); /* hover 时使用主题强调色 */
+}
+
+.docsCard h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  color: inherit; /* ✅ 继承卡片颜色（hover 时同步变色） */
+}
+
+.docsCard p {
+  font-size: 1rem;
+  opacity: 0.85;
+  color: inherit; /* ✅ Docus 默认次级文字色 */
+}

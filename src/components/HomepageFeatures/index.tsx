@@ -1,68 +1,56 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-type FeatureItem = {
+type CardItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: ReactNode;
+  description: string;
+  to: string;
+  emoji: string;
 };
 
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+const cards: CardItem[] = [
+    {
+    title: '奶龙都能看懂的民法总则手册',
+    description: '奶龙能看懂，你也能看懂 📚',
+    to: '/docs/civil',
+    emoji: '🐉',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: '博客',
+    description: '博客就是博客 📝',
+    to: '/blog',
+    emoji: '📰',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function DocsCard({title, description, to, emoji}: CardItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+    <Link to={to} className={clsx('card', styles.docsCard)}>
+      <div className="card__body">
+        <Heading as="h3">
+          {emoji} {title}
+        </Heading>
         <p>{description}</p>
       </div>
-    </div>
+    </Link>
   );
 }
 
 export default function HomepageFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
+    <section className={clsx('text--center', styles.features)}>
       <div className="container">
+        <Heading as="h2" className="margin-bottom--lg">
+          🚀 速览
+        </Heading>
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {cards.map((item, idx) => (
+            <div key={idx} className="col col--6 margin-bottom--lg">
+              <DocsCard {...item} />
+            </div>
           ))}
         </div>
       </div>

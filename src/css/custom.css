@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #1850c9;
+  --ifm-color-primary: #3668d4;
   --ifm-color-primary-dark: #285bc9;
   --ifm-color-primary-darker: #1d1dc1;
   --ifm-color-primary-darkest: #141482;
@@ -40,3 +40,4 @@ li code {
   padding: 0.15em 0.35em;
   border-radius: 0.25rem;
 }
+

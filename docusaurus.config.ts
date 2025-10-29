@@ -8,7 +8,7 @@ const config: Config = {
   trailingSlash: false,
   deploymentBranch: 'master',
   title: '李振宇的主页',
-  tagline: '',
+  tagline: '🫡 欢迎！',
   favicon: '/img/avatar.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
