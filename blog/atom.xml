@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lizhenyu.top/blog</id>
     <title>李振宇的主页 Blog</title>
@@ -7,8 +7,9 @@
     <link rel="alternate" href="https://lizhenyu.top/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://lizhenyu.top/img/avatar.ico</icon>
+    <rights>版权所有 © 2025 李振宇</rights>
     <entry>
-        <title type="html"><![CDATA[《奶龙都能看懂的民法总则手册》连载安排]]></title>
+        <title type="html"><![CDATA[《奶龙手册》连载安排]]></title>
         <id>https://lizhenyu.top/blog/update-schedule-nailoong</id>
         <link href="https://lizhenyu.top/blog/update-schedule-nailoong"/>
         <updated>2025-10-29T00:00:00.000Z</updated>
@@ -20,7 +21,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[《奶龙都能看懂的民法总则手册》更新说明]]></title>
+        <title type="html"><![CDATA[《奶龙手册》更新说明]]></title>
         <id>https://lizhenyu.top/blog/impossible-to-restate</id>
         <link href="https://lizhenyu.top/blog/impossible-to-restate"/>
         <updated>2025-10-20T00:00:00.000Z</updated>
