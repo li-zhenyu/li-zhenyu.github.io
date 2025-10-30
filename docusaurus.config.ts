@@ -53,8 +53,16 @@ const config: Config = {
           showReadingTime: true,
           showLastUpdateTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
+            type: 'all',
+            copyright: `版权所有 © ${new Date().getFullYear()} 李振宇`,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 50 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 50),
+                ...rest,
+              });
+            },
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -74,7 +82,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    //image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -92,12 +100,14 @@ const config: Config = {
           label: '文档',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog/rss.xml', label: 'RSS', position: 'right'},
         {to: '/about', label: '关于', position: 'right'},
         {
           href: 'https://github.com/li-zhenyu/',
           label: 'GitHub',
           position: 'right',
         },
+        {href: 'mailto:lizhenyu66666666@outlook.com', label: '邮箱', position: 'right'},
       ],
     },
     footer: {
@@ -129,19 +139,6 @@ const config: Config = {
         //     },
         //   ],
         // },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/li-zhenyu/',
-            },
-          ],
-        },
         {
           title: '友链',
           items: [

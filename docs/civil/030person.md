@@ -2,6 +2,8 @@
 title: 自然人
 ---
 
+<head><title>自然人 | 奶龙都能看懂的民法总则手册 | 李振宇</title></head>
+
 :::warning
 施工中。
 :::
