@@ -2,9 +2,14 @@
 
 使用Docusaurus构建。
 
-https://li-zhenyu.pages.dev
+国内访问；
 
-https://li-zhenyu.github.io
+https://lizhenyu.top/about
+
+长期使用：
+
+https://li-zhenyu.pages.dev/about
+
 
 <!-- # Website
 
