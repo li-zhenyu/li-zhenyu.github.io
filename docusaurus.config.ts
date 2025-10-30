@@ -141,6 +141,15 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: '友链',
+          items: [
+            {
+              label: 'FrankSean的树洞',
+              href: 'https://bili233.top/',
+            },
+          ],
+        }
       ],
       copyright: `版权所有 © ${new Date().getFullYear()} 李振宇　由 Docusaurus 驱动`,
     },
