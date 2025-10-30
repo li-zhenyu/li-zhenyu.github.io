@@ -100,7 +100,7 @@ const config: Config = {
           label: '文档',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/blog/rss.xml', label: 'RSS', position: 'right'},
+        {to: 'pathname:///blog/rss.xml', label: 'RSS', position: 'right'},//Fuck you Docusaurus!
         {to: '/about', label: '关于', position: 'right'},
         {
           href: 'https://github.com/li-zhenyu/',
