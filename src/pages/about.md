@@ -7,18 +7,34 @@ title: 关于
 
 ## 关于网站
 
-这个网站的最初目的：为了放置一个民法总则教程（现名《奶龙都能看懂的民法总则手册》）。
-
-网站的架构：
-
 ```mermaid
-flowchart
-A["Github Repo(li-zhenyu/li-zhenyu.github.io)"] --> B(Branch: master) & C(Branch: source) & D(Branch: gotopagesdev)
-B --> E[li-zhenyu.pages.dev]
-E --> F[lizhenyu.top]
-D --> G[li-zhenyu.github.io]
-G -->|前端跳转| E
-C -->|Github Actions| B
+flowchart TD
+    subgraph S1 [1. 源代码管理]
+        direction TB
+        Repo["Github 仓库<br/>li-zhenyu/li-zhenyu.github.io"]
+        Repo --> C[Branch: source]
+        Repo --> D[Branch: gotopagesdev]
+    end
+
+    subgraph S2 [2. 构建与部署]
+        direction TB
+        C --push事件触发--> Actions[Github Actions<br/>自动构建]
+        Actions --Deploy--> B
+    end
+
+    subgraph S3 [3. 网站托管与访问]
+        direction TB
+        B[Branch: master<br/>托管构建后的文件] -- 托管于 --> E[li-zhenyu.pages.dev]
+        D -- 托管于 --> G[li-zhenyu.github.io]
+    end
+
+    subgraph S4 [4. 用户访问]
+        direction TB
+        F["自定义域名<br/>lizhenyu.top"] -- CNAME记录指向 --> E
+        G -- JavaScript跳转 --> E
+    end
+
+    S1 --> S2 --> S3 --> S4
 ```
 
 [lizhenyu.top](https://lizhenyu.top)这个域名，我还在考虑要不要续费。[li-zhenyu.pages.dev](https://li-zhenyu.pages.dev)是免费的，会长期使用。但是国内访问可能不太稳定，SEO效果也不怎么样。
