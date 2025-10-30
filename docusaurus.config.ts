@@ -91,7 +91,8 @@ const config: Config = {
           position: 'left',
           label: '文档',
         },
-        {to: '/blog', label: '博客', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/about', label: '关于', position: 'right'},
         {
           href: 'https://github.com/li-zhenyu/',
           label: 'GitHub',

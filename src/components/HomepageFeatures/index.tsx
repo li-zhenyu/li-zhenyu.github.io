@@ -19,8 +19,8 @@ const cards: CardItem[] = [
     emoji: '🐉',
   },
   {
-    title: '博客',
-    description: '博客就是博客 📝',
+    title: 'Blog',
+    description: 'Blog就是博客 📝',
     to: '/blog',
     emoji: '📰',
   },
