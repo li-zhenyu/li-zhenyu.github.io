@@ -91,7 +91,7 @@ const config: Config = {
     navbar: {
       title: '首页',
       logo: {
-        alt: '网站Logo',
+        alt: '网站 Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -150,13 +150,15 @@ const config: Config = {
         //   title: '友链',
         //   items: [
         //     {
-        //       label: 'FrankSean的树洞',
+        //       label: 'FrankSean 的树洞',
         //       href: 'https://bili233.top/',
         //     },
         //   ],
         // }
       ],
+      //autocorrect: false
       copyright: `版权所有 © ${new Date().getFullYear()} 李振宇　由 Docusaurus 驱动`,
+      //autocorrect: true,
     },
     prism: {
       theme: prismThemes.github,
