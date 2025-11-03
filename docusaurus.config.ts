@@ -157,7 +157,7 @@ const config: Config = {
         // }
       ],
       //autocorrect: false
-      copyright: `版权所有 © ${new Date().getFullYear()} 李振宇　由 Docusaurus 驱动`,
+      copyright: `版权所有 © ${new Date().getFullYear()} 李振宇，详见<a href="/about#版权声明">版权声明</a><br/>由 Docusaurus 驱动`,
       //autocorrect: true,
     },
     prism: {
