@@ -56,4 +56,4 @@ Docusaurus 预设了五种 admonition，分别是 note、tip、info、warning、
 
 <!--autocorrect: false-->
 
-教程的源代码发布在 Github 上，作者保留著作、修改、发布的权利，但允许规范且无偿地转载，营利使用须经作者授权，具体条款请参考[版权声明](/about#版权声明)。这个教程是我业余时间编写维护，体例、内容、文字等，难免有所不周。欢迎读者在这个教程的 [Github Repo](http://github.com/li-zhenyu/civil) 上提出 Issue 以反馈错误、提出问题、给予建议，不会使用 Github 的读者，也可以通过[我的邮箱](mailto:lizhenyu66666666@outlook.com)给予帮助。十分感谢！
+教程的源代码发布在 GitHub 上，作者保留著作、修改、发布的权利，但允许规范且无偿地转载，营利使用须经作者授权，具体条款请参考[版权声明](/about#版权声明)。这个教程是我业余时间编写维护，体例、内容、文字等，难免有所不周。欢迎读者在这个教程的 [GitHub Repo](http://github.com/li-zhenyu/civil) 上提出 Issue 以反馈错误、提出问题、给予建议，不会使用 GitHub 的读者，也可以通过[我的邮箱](mailto:lizhenyu66666666@outlook.com)给予帮助。十分感谢！
