@@ -83,6 +83,15 @@ const config: Config = {
   ],
 
   themeConfig: {
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '502VHLLVKH',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'a3dbdaf797df32ec37fc423fef12d034',
+
+      indexName: 'Search of Li Zhenyu',
+    },
     // Replace with your project's social card
     //image: 'img/docusaurus-social-card.jpg',
     colorMode: {
