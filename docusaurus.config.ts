@@ -136,12 +136,6 @@ const config: Config = {
           label: "邮箱",
           position: "right",
         },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-        },
       ],
     },
     footer: {
