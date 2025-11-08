@@ -83,6 +83,12 @@ const config: Config = {
   ],
 
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
     algolia: {
       // The application ID provided by Algolia
       appId: '502VHLLVKH',
@@ -129,6 +135,12 @@ const config: Config = {
           href: "mailto:lizhenyu66666666@outlook.com",
           label: "邮箱",
           position: "right",
+        },
+        {
+          href: 'https://github.com/facebook/docusaurus',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
