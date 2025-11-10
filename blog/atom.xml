@@ -2,12 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lizhenyu.top/blog</id>
     <title>李振宇的主页 Blog</title>
-    <updated>2025-11-04T00:00:00.000Z</updated>
+    <updated>2025-11-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lizhenyu.top/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://lizhenyu.top/img/avatar.ico</icon>
     <rights>著作权所有 © 2025 李振宇</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 Word 的正确方式]]></title>
+        <id>https://lizhenyu.top/blog/how-to-use-word-properly</id>
+        <link href="https://lizhenyu.top/blog/how-to-use-word-properly"/>
+        <updated>2025-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[问题描述]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="问题描述">问题描述<a href="https://lizhenyu.top/blog/how-to-use-word-properly#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="问题描述的直接链接" title="问题描述的直接链接" translate="no">​</a></h2>
+<p>一直想吐槽，许多人使用 Word 毫不在意西文字体。Word 默认使用等线字体，而许多文档要求以宋体作为主要字体。这时，用户常常选中文字，设置宋体，但忽略相应设置西文字体为衬线字体，如 Times New Roman。这时，中文字体为 serif 而西文字体是 sans-serif，非常难看。</p>
+<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="解决方案">解决方案<a href="https://lizhenyu.top/blog/how-to-use-word-properly#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" class="hash-link" aria-label="解决方案的直接链接" title="解决方案的直接链接" translate="no">​</a></h2>
+<p>以下操作以 LTSC 2024 版本为准。</p>
+<p>在<code>设计</code>选项卡中找到<code>字体</code>--&gt;<code>自定义字体</code>，设置中文字体为宋体或者其他中文衬线字体，西文字体为 Times New Roman 或者其他西文衬线字体。随后单击<code>设为默认值</code>。</p>
+<p>然后按照你的习惯微调各级标题和正文的样式，例如可以将正文设置为两端对齐。随后，在<code>开始</code>--&gt;<code>样式</code>--&gt;<code>管理样式</code>--&gt;<code>导入/导出</code>，将所有样式导出到 <code>Normal.dotm</code>。</p>
+<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="预期效果">预期效果<a href="https://lizhenyu.top/blog/how-to-use-word-properly#%E9%A2%84%E6%9C%9F%E6%95%88%E6%9E%9C" class="hash-link" aria-label="预期效果的直接链接" title="预期效果的直接链接" translate="no">​</a></h2>
+<p>经过以上操作，新建的 Word 文档默认字体应该统一为正确的衬线体，且默认样式为你设置的样式。</p>
+<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="注意事项">注意事项<a href="https://lizhenyu.top/blog/how-to-use-word-properly#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="hash-link" aria-label="注意事项的直接链接" title="注意事项的直接链接" translate="no">​</a></h2>
+<p>经测试，直接对 <code>Normal.dotm</code> 加以修改，是无效的。</p>]]></content>
+        <author>
+            <name>李振宇</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于本站的著作权许可协议]]></title>
         <id>https://lizhenyu.top/blog/about-copyright-agreement</id>
