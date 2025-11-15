@@ -178,7 +178,7 @@ const config: Config = {
         // }
       ],
       //autocorrect: false
-      copyright: `著作权所有 © ${new Date().getFullYear()} 李振宇，详见<a href="/about#许可协议">许可协议</a><br/>由 Docusaurus 驱动`,
+      copyright: `著作权所有 © ${new Date().getFullYear()} 李振宇，详见<a href="/about#许可协议">许可协议</a><br/>由 Docusaurus 驱动<br/><a href="https://icp.gov.moe/?keyword=20251450" target="_blank">萌ICP备20251450号</a>`,
       //autocorrect: true,
     },
     prism: {
