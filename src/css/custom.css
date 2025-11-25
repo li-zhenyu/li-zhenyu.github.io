@@ -38,9 +38,10 @@
 p code,
 li code {
   font-family: var(--ifm-font-family-base) !important;
-  font-weight: 400;
-  font-size: inherit;
-  padding: 0.15em 0.35em;
-  border-radius: 0.25rem;
 }
 
+em {
+    font-style: normal;
+    text-decoration: underline dotted 2.5px;
+    text-underline-offset: 4px;
+}
