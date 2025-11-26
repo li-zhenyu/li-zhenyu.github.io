@@ -5,6 +5,18 @@
     "description": "李振宇的主页 Blog",
     "items": [
         {
+            "id": "https://lizhenyu.top/blog/about-comments",
+            "content_html": "<p>现在这里是没有评论功能的。只有作者的<a href=\"mailto:lizhenyu66666666@outlook.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"\">邮箱</a>作为平替。</p>\n<p>我一直觉得站点需要一个评论功能。但是这个网站是静态的，评论功能必须引入第三方服务。我目前也缺乏自建评论服务的精力、时间、经费和动力。</p>\n<p>现在常见的评论区实现方式是通过 GitHub 的讨论区来存放数据。但这在境内的可访问性是存疑的，也会影响页面的整体显示效果。毕竟站点的读者往往未必懂得如何使用 GitHub，因为对于非 IT 行业的读者而言，GitHub 是个陌生的、英文的、充满费解术语的“暗网”。</p>\n<p>由于我没有使用过 GitHub 的讨论区，我不太清楚它是否允许管理员删除某些评论。允许管理员编辑自己站点上的评论是不正当的，有的个人站点是 WordPress 自托管的，其中个别站长有这个毛病。我觉得，哪怕是改改错别字，都是对读者的不尊重。</p>\n<p>但是，允许管理员删除，或者屏蔽某些评论，这个需求是无比重要的。因为<em>快播案</em>的判决表明，即使在技术上管理员难以全面审核或者对删除评论毫无办法，也不构成在信息犯罪方面的免责事由。考虑到<em>司法的实际情况更为复杂</em>，即使是我道听途说，有种方案可以把评论放在链上，好像叫做什么智能合约的，考虑到站点管理员对评论区完全无法管理，反而风险更甚。</p>\n<p>正因如此，将评论区放到 GitHub 或者自己托管，都会引起复杂的合规问题。许多媒介平台穷尽资源都难以维持审核力度，而我有时候可能数日乃至数周不关注站点。Web 2.0 时代遗留的若干站点遗迹，当时流行整个站点的留言板。因为缺乏维护，许多已经充斥着群魔乱舞的、甚至足以把站长送进去的内容，而我也不可能如同某些<em>阴湿的怪物</em>一样，将自己为数不多的精力放在本应成为休闲写作的站点的边边角角，删除、回击乃至篡改读者的评论。</p>\n<p>发布邮箱的深意是，邮箱也可以很容易地通过临时邮箱以匿名投送，而且 Outlook 邮箱的可靠性也基本令人满意。即使被归类为垃圾邮件，也迟早会被我发现以提供回复，甚至据说还支持端到端加密功能。虽然无法实时互动，但基本上应该可能实现需求。</p>\n<p>微信公众号早期的评论精选功能其实是不错的范例，强制要求创作者对评论区所展示的每一条评论加以取舍，至少保证了展示内容的合规性。虽然微信这样的大平台本身就可以给作者提供一定的对评论区免责的理由，且其也具备与其他平台至少同等的审核能力，正因如此他们放弃了强制精选而开放了“自动精选”实际上就是取消精选前置的功能。但精选模式对于个人站点还是谨慎明智的选择。</p>\n<p>因此，如果日后发现相应的便捷地支持评论精选的第三方服务，则本站或许会启用带有前置精选的评论区。</p>",
+            "url": "https://lizhenyu.top/blog/about-comments",
+            "title": "站点的评论功能",
+            "summary": "现在这里是没有评论功能的。只有作者的邮箱作为平替。",
+            "date_modified": "2025-11-26T00:00:00.000Z",
+            "author": {
+                "name": "李振宇"
+            },
+            "tags": []
+        },
+        {
             "id": "https://lizhenyu.top/blog/how-to-use-word-properly",
             "content_html": "<h2 class=\"anchor anchorTargetStickyNavbar_OS_M\" id=\"问题描述\">问题描述<a href=\"https://lizhenyu.top/blog/how-to-use-word-properly#%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0\" class=\"hash-link\" aria-label=\"问题描述的直接链接\" title=\"问题描述的直接链接\" translate=\"no\">​</a></h2>\n<p>一直想吐槽，许多人使用 Word 毫不在意西文字体。Word 默认使用等线字体，而许多文档要求以宋体作为主要字体。这时，用户常常选中文字，设置宋体，但忽略相应设置西文字体为衬线字体，如 Times New Roman。这时，中文字体为 serif 而西文字体是 sans-serif，非常难看。</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_OS_M\" id=\"解决方案\">解决方案<a href=\"https://lizhenyu.top/blog/how-to-use-word-properly#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88\" class=\"hash-link\" aria-label=\"解决方案的直接链接\" title=\"解决方案的直接链接\" translate=\"no\">​</a></h2>\n<p>以下操作以 LTSC 2024 版本为准。</p>\n<p>在<code>设计</code>选项卡中找到<code>字体</code>--&gt;<code>自定义字体</code>，设置中文字体为宋体或者其他中文衬线字体，西文字体为 Times New Roman 或者其他西文衬线字体。随后单击<code>设为默认值</code>。</p>\n<p>然后按照你的习惯微调各级标题和正文的样式，例如可以将正文设置为两端对齐。随后，在<code>开始</code>--&gt;<code>样式</code>--&gt;<code>管理样式</code>--&gt;<code>导入/导出</code>，将所有样式导出到 <code>Normal.dotm</code>。</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_OS_M\" id=\"预期效果\">预期效果<a href=\"https://lizhenyu.top/blog/how-to-use-word-properly#%E9%A2%84%E6%9C%9F%E6%95%88%E6%9E%9C\" class=\"hash-link\" aria-label=\"预期效果的直接链接\" title=\"预期效果的直接链接\" translate=\"no\">​</a></h2>\n<p>经过以上操作，新建的 Word 文档默认字体应该统一为正确的衬线体，且默认样式为你设置的样式。</p>\n<h2 class=\"anchor anchorTargetStickyNavbar_OS_M\" id=\"注意事项\">注意事项<a href=\"https://lizhenyu.top/blog/how-to-use-word-properly#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9\" class=\"hash-link\" aria-label=\"注意事项的直接链接\" title=\"注意事项的直接链接\" translate=\"no\">​</a></h2>\n<p>经测试，直接对 <code>Normal.dotm</code> 加以修改，是无效的。</p>",
             "url": "https://lizhenyu.top/blog/how-to-use-word-properly",
