@@ -52,3 +52,7 @@ strong {
   color: var(--ifm-color-primary-darker)
 }
 
+#cusdis_thread {
+display: flex;
+height: 40ex;
+}

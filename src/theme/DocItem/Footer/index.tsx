@@ -1,14 +1,19 @@
 import React, { type ReactNode } from 'react';
-import BlogPostItem from '@theme-original/BlogPostItem';
-import type BlogPostItemType from '@theme/BlogPostItem';
+import Footer from '@theme-original/DocItem/Footer';
+import type FooterType from '@theme/DocItem/Footer';
 import type { WrapperProps } from '@docusaurus/types';
-import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
+
 import { ReactCusdis } from 'react-cusdis';
 import { useColorMode, ColorMode } from '@docusaurus/theme-common';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 
-type Props = WrapperProps<typeof BlogPostItemType>;
 
-export default function BlogPostItemWrapper(props: Props): ReactNode {
+type Props = WrapperProps<typeof FooterType>;
+
+export default function FooterWrapper(props: Props): ReactNode {
+  // 直接从 props 中获取 metadata
+  const { metadata } = useDoc();
+
   const DocusaurusColorModeToCusdisTheme: Record<ColorMode, 'light' | 'dark' | 'auto'> = {
     light: 'light',
     dark: 'dark'
@@ -16,7 +21,6 @@ export default function BlogPostItemWrapper(props: Props): ReactNode {
   const { colorMode } = useColorMode();
   const cusdisTheme = DocusaurusColorModeToCusdisTheme[colorMode];
 
-  const { metadata, isBlogPostPage } = useBlogPost();
   const { title, permalink } = metadata;
   const CusdisContainer = (
     <div key={cusdisTheme}>
@@ -33,12 +37,11 @@ export default function BlogPostItemWrapper(props: Props): ReactNode {
       />
     </div>
   );
-  //const inside_title = title.replaceAll("〈", "《").replaceAll("〉", "》").replaceAll("《", "〈").replaceAll("》", "〉");//按照权威机构，内部第三层次的书名号，回到《》。
-
   return (
     <>
-      <BlogPostItem {...props} />
-      {isBlogPostPage && CusdisContainer}
+
+      <Footer {...props} />
+      {CusdisContainer}
     </>
   );
 }
