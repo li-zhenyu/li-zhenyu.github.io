@@ -14,7 +14,7 @@ type CardItem = {
 const cards: CardItem[] = [
     {
     title: '民法总则手册',
-    description: '学习民法的涓滴与跬步',
+    description: '学习民法总则的涓滴与跬步',
     to: '/docs/civil',
     emoji: '📚',
   },
