@@ -38,7 +38,9 @@
 .docMarkdown code,
 p code,
 li code {
-  font-family: var(--ifm-font-family-base) !important;
+  font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", "Consolas", "SF Mono",
+   "Monaco", "Source Code Pro", "Roboto Mono", "Inconsolata", "DejaVu Sans Mono",
+    var(--ifm-font-family-base), monospace
 }
 
 em {
