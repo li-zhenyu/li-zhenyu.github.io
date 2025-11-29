@@ -24,6 +24,8 @@ tags:
 
 ## 版式
 
+### 代码块
+
 对代码块的等宽字体做了调整，为：
 
 ```css
@@ -33,6 +35,8 @@ font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", "Consolas", "SF Mon
 ```
 
 这是为了避免看到宋体和 Courier。它们不是不好，只是跟本站不搭。事实上，Windows 默认的 Consolas 跟本站也不太协调。我自己安装了 Fira Code。它支持连字，比如这里的`->`会被连接成一个$\rightarrow$。
+
+### `<em>`标签
 
 对`<em>`标签的样式做了调整，为：
 
