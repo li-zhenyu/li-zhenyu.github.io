@@ -153,7 +153,7 @@ const config: Config = {
           title: "文档",
           items: [
             {
-              label: "奶龙都能看懂的民法总则手册",
+              label: "民法总则手册",
               to: "/docs/civil",
             },
           ],

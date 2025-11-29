@@ -2,7 +2,7 @@
 title: 民法的渊源
 ---
 
-<head><title>民法的渊源 | 奶龙都能看懂的民法总则手册 | 李振宇</title></head>
+<head><title>民法的渊源 | 民法总则手册 | 李振宇</title></head>
 
 ## 案例引入
 

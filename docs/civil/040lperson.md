@@ -2,7 +2,7 @@
 title: 法人（施工中）
 ---
 
-<head><title>法人 | 奶龙都能看懂的民法总则手册 | 李振宇</title></head>
+<head><title>法人 | 民法总则手册 | 李振宇</title></head>
 
 :::info[法人的本质]
 

@@ -13,16 +13,16 @@ type CardItem = {
 
 const cards: CardItem[] = [
     {
-    title: '奶龙都能看懂的民法总则手册',
-    description: '奶龙能看懂，你也能看懂 📚',
+    title: '民法总则手册',
+    description: '学习民法的涓滴与跬步',
     to: '/docs/civil',
-    emoji: '🐉',
+    emoji: '📚',
   },
   {
     title: 'Blog',
-    description: 'Blog就是博客 📝',
+    description: 'Blog就是博客',
     to: '/blog',
-    emoji: '📰',
+    emoji: '📝',
   },
 ];
 
