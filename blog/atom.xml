@@ -2,12 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lizhenyu.top/blog</id>
     <title>李振宇的主页 Blog</title>
-    <updated>2025-11-27T00:00:00.000Z</updated>
+    <updated>2025-11-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lizhenyu.top/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://lizhenyu.top/img/avatar.ico</icon>
     <rights>著作权所有 © 2025 李振宇</rights>
+    <entry>
+        <title type="html"><![CDATA[站点的字体和版式]]></title>
+        <id>https://lizhenyu.top/blog/about-fonts</id>
+        <link href="https://lizhenyu.top/blog/about-fonts"/>
+        <updated>2025-11-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[字体]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="字体">字体<a href="https://lizhenyu.top/blog/about-fonts#%E5%AD%97%E4%BD%93" class="hash-link" aria-label="字体的直接链接" title="字体的直接链接" translate="no">​</a></h2>
+<p>本站的字体优先级，配置为：</p>
+<div class="language-css codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-css codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token variable" style="color:#36acaa">--ifm-font-family-base</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Noto Sans CJK SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Noto Sans SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Noto Sans"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token string" style="color:#e3116c">"思源黑体 SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"思源黑体"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"PingFang SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Microsoft YaHei"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Heiti SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"WenQuanYi Micro Hei"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Helvetica Neue"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Arial</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> sans-serif</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>在 Windows 平台上，如果足够在意细节，就会发现默认的微软雅黑字体的正反引号看起来极为相似。对我而言，这很难受，因为阅读检查自己的 Blog 时，很难看出引号是不是正确匹配的。因此我把默认的字体设置为 Noto。它的正反引号看起来很明显。</p>
+<p>读者通常而言无需考虑正反引号的问题。或许您和我一样，对细节有一点点稍微过分的执着，则可以考虑安装一份 Noto Sans CJK SC 字体。它是免费开源、允许商用的。</p>
+<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="版式">版式<a href="https://lizhenyu.top/blog/about-fonts#%E7%89%88%E5%BC%8F" class="hash-link" aria-label="版式的直接链接" title="版式的直接链接" translate="no">​</a></h2>
+<p>对代码块的等宽字体做了调整，为：</p>
+<div class="language-css codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-css codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token property" style="color:#36acaa">font-family</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Fira Code"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"JetBrains Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Cascadia Code"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Consolas"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"SF Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"Monaco"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Source Code Pro"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Roboto Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Inconsolata"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"DejaVu Sans Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-font-family-base</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> monospace</span><br></span></code></pre></div></div>
+<p>这是为了避免看到宋体和 Courier。它们不是不好，只是跟本站不搭。事实上，Windows 默认的 Consolas 跟本站也不太协调。我自己安装了 Fira Code。它支持连字，比如这里的<code>-&gt;</code>会被连接成一个<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em"></span><span class="mrel">→</span></span></span></span>。</p>
+<p>对<code>&lt;em&gt;</code>标签的样式做了调整，为：</p>
+<div class="language-css codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-css codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">em</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">font-style</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> normal</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> underline dotted </span><span class="token number" style="color:#36acaa">2.5</span><span class="token unit">px</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">text-decoration-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-color-primary</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">text-underline-offset</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">4</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<p>这是因为，italic 在中文环境下会产生伪斜体。中文没有这种字体，正式的出版中也不会用到。伪斜体也影响阅读体验，显得不够正式，也难以与 normal 字体区分。因此这里改为下面加主题颜色（本站是蓝色）的圆点来表示。就像<em>这样</em>。</p>]]></content>
+        <author>
+            <name>李振宇</name>
+        </author>
+        <category label="site" term="site"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[何妨制定《反虐待动物法》？]]></title>
         <id>https://lizhenyu.top/blog/why-not-anti-abuse</id>
@@ -25,6 +48,7 @@
         <author>
             <name>李振宇</name>
         </author>
+        <category label="law" term="law"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[站点的评论功能]]></title>
@@ -61,6 +85,7 @@
         <author>
             <name>李振宇</name>
         </author>
+        <category label="site" term="site"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用 Word 的正确方式]]></title>
@@ -99,6 +124,8 @@
         <author>
             <name>李振宇</name>
         </author>
+        <category label="site" term="site"/>
+        <category label="law" term="law"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[《奶龙手册》连载安排]]></title>
@@ -111,6 +138,7 @@
         <author>
             <name>李振宇</name>
         </author>
+        <category label="docs-related" term="docs-related"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[《奶龙手册》更新说明]]></title>
@@ -126,5 +154,6 @@
         <author>
             <name>李振宇</name>
         </author>
+        <category label="docs-related" term="docs-related"/>
     </entry>
 </feed>

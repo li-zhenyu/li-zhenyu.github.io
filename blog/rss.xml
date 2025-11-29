@@ -4,11 +4,31 @@
         <title>李振宇的主页 Blog</title>
         <link>https://lizhenyu.top/blog</link>
         <description>李振宇的主页 Blog</description>
-        <lastBuildDate>Thu, 27 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <copyright>著作权所有 © 2025 李振宇</copyright>
+        <item>
+            <title><![CDATA[站点的字体和版式]]></title>
+            <link>https://lizhenyu.top/blog/about-fonts</link>
+            <guid>https://lizhenyu.top/blog/about-fonts</guid>
+            <pubDate>Sat, 29 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[字体]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="字体">字体<a href="https://lizhenyu.top/blog/about-fonts#%E5%AD%97%E4%BD%93" class="hash-link" aria-label="字体的直接链接" title="字体的直接链接" translate="no">​</a></h2>
+<p>本站的字体优先级，配置为：</p>
+<div class="language-css codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-css codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token variable" style="color:#36acaa">--ifm-font-family-base</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Noto Sans CJK SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Noto Sans SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Noto Sans"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token string" style="color:#e3116c">"思源黑体 SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"思源黑体"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"PingFang SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Microsoft YaHei"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Heiti SC"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"WenQuanYi Micro Hei"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Helvetica Neue"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> Arial</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> sans-serif</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>在 Windows 平台上，如果足够在意细节，就会发现默认的微软雅黑字体的正反引号看起来极为相似。对我而言，这很难受，因为阅读检查自己的 Blog 时，很难看出引号是不是正确匹配的。因此我把默认的字体设置为 Noto。它的正反引号看起来很明显。</p>
+<p>读者通常而言无需考虑正反引号的问题。或许您和我一样，对细节有一点点稍微过分的执着，则可以考虑安装一份 Noto Sans CJK SC 字体。它是免费开源、允许商用的。</p>
+<h2 class="anchor anchorTargetStickyNavbar_OS_M" id="版式">版式<a href="https://lizhenyu.top/blog/about-fonts#%E7%89%88%E5%BC%8F" class="hash-link" aria-label="版式的直接链接" title="版式的直接链接" translate="no">​</a></h2>
+<p>对代码块的等宽字体做了调整，为：</p>
+<div class="language-css codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-css codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token property" style="color:#36acaa">font-family</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Fira Code"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"JetBrains Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Cascadia Code"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Consolas"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"SF Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"Monaco"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Source Code Pro"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Roboto Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Inconsolata"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"DejaVu Sans Mono"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-font-family-base</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> monospace</span><br></span></code></pre></div></div>
+<p>这是为了避免看到宋体和 Courier。它们不是不好，只是跟本站不搭。事实上，Windows 默认的 Consolas 跟本站也不太协调。我自己安装了 Fira Code。它支持连字，比如这里的<code>-&gt;</code>会被连接成一个<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em"></span><span class="mrel">→</span></span></span></span>。</p>
+<p>对<code>&lt;em&gt;</code>标签的样式做了调整，为：</p>
+<div class="language-css codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-css codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token selector" style="color:#00009f">em</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">font-style</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> normal</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">text-decoration</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> underline dotted </span><span class="token number" style="color:#36acaa">2.5</span><span class="token unit">px</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">text-decoration-color</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">var</span><span class="token punctuation" style="color:#393A34">(</span><span class="token variable" style="color:#36acaa">--ifm-color-primary</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">text-underline-offset</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">4</span><span class="token unit">px</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<p>这是因为，italic 在中文环境下会产生伪斜体。中文没有这种字体，正式的出版中也不会用到。伪斜体也影响阅读体验，显得不够正式，也难以与 normal 字体区分。因此这里改为下面加主题颜色（本站是蓝色）的圆点来表示。就像<em>这样</em>。</p>]]></content:encoded>
+            <category>site</category>
+        </item>
         <item>
             <title><![CDATA[何妨制定《反虐待动物法》？]]></title>
             <link>https://lizhenyu.top/blog/why-not-anti-abuse</link>
@@ -23,6 +43,7 @@
 <p>近来声援《反虐待动物法》的声音甚嚣尘上，但我这次不做任何同样的事情，并且认为不妨制定一部《反虐待动物法》。免得法律通过之后，曾经极力反对的我显得如同小丑一样。石沉大海的书信和零星点赞的帖子只会扰乱我的心境和生活。</p>
 <p>他们念经就由他们念去吧。这几年女权普及，念的是波伏娃和上野千鹤子。动保不知道念的什么经书。但是于我普罗大众是徒增劳烦的。去年住处边上有条臭水沟，蟾蜍肆虐，我夜半归迟，踩死一只，好不恶心。阿弥陀佛，幸好法律不太可能溯及既往。</p>
 <p>后来臭水沟挨了改造工程的铁拳，蟾蜍大军都被“虐待致死”了。惜乎痛乎，弥天业障！可惜那里流浪的猫狗仍然肆虐。有些是附近的店铺所供养，店老板就是名义上的主人。我询问过附近的宠物保护社团，他们说因为店老板们的阻拦，他们的绝育项目也无能为力。于是我只好忍受晚上店铺打烊后，发情的狗吠叫或追逐，撕咬或沉吟。但是毕竟系私有财产，我也无权破坏。即使是出台一部《反虐待动物法》，对此也不过是维持现状耳，只是对于早已魂归呱星的呱星人，大有不公。在这邪曲害公、谗谄蔽明、方正不容的五浊恶世，直人正道的言行被女权、动保等极端声音所遮蔽，难以上达天听。所以，保护一下可爱的猫猫狗狗，为世界多一抹亮色故，那咋了？</p>]]></content:encoded>
+            <category>law</category>
         </item>
         <item>
             <title><![CDATA[站点的评论功能]]></title>
@@ -56,6 +77,7 @@
 </li>
 </ol>
 </section>]]></content:encoded>
+            <category>site</category>
         </item>
         <item>
             <title><![CDATA[使用 Word 的正确方式]]></title>
@@ -88,6 +110,8 @@
 <p>然后，关于翻译。这个协议其实是禁止修改和衍生作品的，虽然允许翻译，但翻译限制在无偿使用、署名、保留出处的严格范围内。这个翻译授权，主要是对个人使用 AI 进行翻译并转载而提供的。AI 的翻译难免有错误，因此要求保留出处。我想人工翻译者出于理性必然无法接受这么严苛的条款。如果需要更宽松的授权，当然可以联系我来取得。</p>
 <p>最后，关于这个网站为什么要拟定如此全面细致的许可协议。首先，这份许可协议是我出于兴趣的习作，力图具有一定的普遍性；其次，因为 CC 系列的 Public License 背景是普通法，作为维权依据，难度比较大；作为通用的格式，对于当前的 AI、网络传播等问题，规定的不够周详，对于管辖之类的条款也比较空白。由于 CC 系列很有名，一望便知，因此作者如果选择声明保留或者附加某些条款，可能会被误以为是“钓鱼执法”，操作起来，也比较复杂。</p>
 <p>因此，我用中文写一个自己的版本，不追求通用，而是主张因人而异，便于修改，希望给大家提供一定的参考。因此，我的这个许可协议的著作权也被我在最大程度上放弃了。其正文和此处都声明这一点。</p>]]></content:encoded>
+            <category>site</category>
+            <category>law</category>
         </item>
         <item>
             <title><![CDATA[《奶龙手册》连载安排]]></title>
@@ -97,6 +121,7 @@
             <description><![CDATA[这几天一直在连载《奶龙都能看懂的民法总则手册》，十分上瘾。节奏很快的话，一些问题来不及打磨，兴趣也会很快耗尽，为了避免这种情况，想用一个时间表来自律一下。列表如下：]]></description>
             <content:encoded><![CDATA[<p>这几天一直在连载《奶龙都能看懂的民法总则手册》，十分上瘾。节奏很快的话，一些问题来不及打磨，兴趣也会很快耗尽，为了避免这种情况，想用一个时间表来自律一下。列表如下：</p>
 <table><thead><tr><th>周次（以周一的日期为标志）</th><th>更新内容</th><th>完成情况</th></tr></thead><tbody><tr><td>2025-10-27</td><td>更新自然人：民事权利能力和民事行为能力</td><td>已完成</td></tr><tr><td>2025-11-3</td><td>更新自然人：监护</td><td>已完成</td></tr><tr><td>2025-11-10</td><td>更新自然人：宣告失踪和宣告死亡、个体工商户</td><td>已完成</td></tr><tr><td>2025-11-17</td><td>更新法人：（待定）</td><td></td></tr><tr><td>2025-11-24</td><td>更新法人：（待定）</td><td></td></tr><tr><td>2025-12-1</td><td>更新非法人组织：（待定）</td><td></td></tr><tr><td>2025-12-8</td><td>审阅和修改民事主体部分三个章节</td><td></td></tr></tbody></table>]]></content:encoded>
+            <category>docs-related</category>
         </item>
         <item>
             <title><![CDATA[《奶龙手册》更新说明]]></title>
@@ -109,6 +134,7 @@
 <p>所以打算把写作思路调整一下。择日重新写一写。我觉得应该考虑改名叫做“速通民法总则手册”之类的。因为写这个文档目的就是想给零基础的读者阅读的，写得尽量浅显，尽量方便快速上手。虽然这样的读者很少。但是我本身就是基于兴趣来整理这个文档，想要服务于不了解但是感兴趣的读者。</p>
 <p>总之我坦言，这个文档的写作难度远超过我的预期。暂时不打算放弃，等我仔细研究一下。</p>
 <p>算了，先降低自己的预期，把这个手册改名为《奶龙都能看懂的民法总则手册》好了。</p>]]></content:encoded>
+            <category>docs-related</category>
         </item>
     </channel>
 </rss>
