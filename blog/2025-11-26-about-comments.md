@@ -2,6 +2,8 @@
 slug: about-comments
 title: 站点的评论功能
 authors: [li-zhenyu]
+tags:
+  - site
 ---
 
 现在这里是没有评论功能的。只有作者的[邮箱](mailto:lizhenyu66666666@outlook.com)作为平替。

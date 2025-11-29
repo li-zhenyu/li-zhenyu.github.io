@@ -2,6 +2,9 @@
 slug: about-copyright-agreement
 title: 关于本站的著作权许可协议
 authors: [li-zhenyu]
+tags: 
+  - site
+  - law
 ---
 
 [这个协议](/about#许可协议)一开始是我自己写的几个条款，后来参考了 CC-BY-NC-ND 4.0 的格式。普通法系的人特别喜欢定义表，之前觉得画蛇添足，现在觉得操作起来比较便利。

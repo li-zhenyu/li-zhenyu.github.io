@@ -2,6 +2,8 @@
 slug: update-schedule-nailoong
 title: 《奶龙手册》连载安排
 authors: [li-zhenyu]
+tags: 
+  - docs-related
 ---
 
 这几天一直在连载《奶龙都能看懂的民法总则手册》，十分上瘾。节奏很快的话，一些问题来不及打磨，兴趣也会很快耗尽，为了避免这种情况，想用一个时间表来自律一下。列表如下：

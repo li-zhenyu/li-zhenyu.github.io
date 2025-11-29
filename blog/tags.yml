@@ -2,4 +2,10 @@ law:
   label: law
   permalink: /law
   description: 有关法律的文章。
-
+site:
+  label: site
+  permalink: /site
+  description: 关于站点的建设和管理。
+docs-related: 
+  label: docs-related
+  description: 关于本站的文档。
