@@ -135,11 +135,6 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://github.com/li-zhenyu/li-zhenyu.github.io/discussions/1",
-          label: "留言板",
-          position: "right",
-        },
-        {
           href: "mailto:lizhenyu66666666@outlook.com",
           label: "邮箱",
           position: "right",
