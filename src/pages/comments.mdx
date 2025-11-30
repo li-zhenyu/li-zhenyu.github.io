@@ -1,0 +1,36 @@
+---
+title: 留言板
+---
+import { ReactCusdis } from 'react-cusdis';
+import { useColorMode, ColorMode } from '@docusaurus/theme-common';
+
+# 留言板
+
+恭喜你发现了我的留言板！
+
+export const CommentSection = () => {
+  const DocusaurusColorModeToCusdisTheme = {
+    light: 'light',
+    dark: 'dark'
+  };
+  const { colorMode } = useColorMode();
+  const cusdisTheme = DocusaurusColorModeToCusdisTheme[colorMode];
+  
+  return (
+    <div key={cusdisTheme} >
+    <ReactCusdis
+      lang="zh-cn"
+      attrs={{
+          host: 'https://cusdis.com',
+          appId: '3ae124ed-37d0-46c0-84f8-e1feec7bee8a',
+          pageId: "comments",
+          pageTitle: "留言板",
+          pageUrl: "https://lizhenyu.top/comments",
+          theme: cusdisTheme,
+      }}
+    />
+    </div>
+  );
+};
+
+<CommentSection />

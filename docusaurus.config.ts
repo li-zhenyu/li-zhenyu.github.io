@@ -128,6 +128,7 @@ const config: Config = {
         //以下是右边
         { to: "/rss", label: "RSS", position: "right" }, //Fuck you Docusaurus!
         { to: "/links", label: "友链", position: "right" },
+        { to: "/comments", label: "留言板", position: "right"},
         { to: "/about", label: "关于", position: "right" },
         {
           href: "https://github.com/li-zhenyu/",

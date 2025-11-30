@@ -1,0 +1,47 @@
+---
+title: 友链
+---
+import { ReactCusdis } from 'react-cusdis';
+import { useColorMode, ColorMode } from '@docusaurus/theme-common';
+
+# 友链
+
+[写信](mailto:lizhenyu66666666@outlook.com)给我以互换友链。
+
+示例：
+
+```yaml
+intro: "your_website_introduction"
+link: "http://to-your-website.domain"
+```
+
+或者简单文字介绍一下，亦可。
+
+或者在下方的评论区留言：
+
+export const CommentSection = () => {
+  const DocusaurusColorModeToCusdisTheme = {
+    light: 'light',
+    dark: 'dark'
+  };
+  const { colorMode } = useColorMode();
+  const cusdisTheme = DocusaurusColorModeToCusdisTheme[colorMode];
+  
+  return (
+    <div key={cusdisTheme}>
+    <ReactCusdis
+      lang="zh-cn"
+      attrs={{
+          host: 'https://cusdis.com',
+          appId: '3ae124ed-37d0-46c0-84f8-e1feec7bee8a',
+          pageId: "links",
+          pageTitle: "友链",
+          pageUrl: "https://lizhenyu.top/links",
+          theme: cusdisTheme,
+      }}
+    />
+    </div>
+  );
+};
+
+<CommentSection />
