@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunklizhenyu_official=globalThis.webpackChunklizhenyu_official||[]).push([[967],{967:(e,i,a)=>{a.d(i,{createPacketServices:()=>c.$});var c=a(2012);a(9932)}}]);

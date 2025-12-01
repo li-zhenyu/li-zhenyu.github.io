@@ -2,12 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lizhenyu.top/blog</id>
     <title>李振宇的主页 Blog</title>
-    <updated>2025-11-30T00:00:00.000Z</updated>
+    <updated>2025-12-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lizhenyu.top/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://lizhenyu.top/img/avatar.ico</icon>
     <rights>著作权所有 © 2025 李振宇</rights>
+    <entry>
+        <title type="html"><![CDATA[有人告诉我现有《最高人民法院关于适用〈中华人民共和国民法典〉物权编的解释（二）》]]></title>
+        <id>https://lizhenyu.top/blog/i-was-told-there-is-property-interpretation-2</id>
+        <link href="https://lizhenyu.top/blog/i-was-told-there-is-property-interpretation-2"/>
+        <updated>2025-12-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今天遇到一个问题需要检索物权法相关的法律规则。于是搜索“物权编司法解释”，理所当然地搜到了《最高人民法院关于适用〈中华人民共和国民法典〉物权编的解释（一）》。本着有一必有二的原则，去搜了搜“物权编司法解释二”。]]></summary>
+        <content type="html"><![CDATA[<p>今天遇到一个问题需要检索物权法相关的法律规则。于是搜索“物权编司法解释”，理所当然地搜到了《最高人民法院关于适用〈中华人民共和国民法典〉物权编的解释（一）》。本着有一必有二的原则，去搜了搜“物权编司法解释二”。</p>
+<p>结果发现这么几个结果。第一个是 lawparks.com 上的一个回答。链接为：<a href="https://www.lawparks.com/ask/supreme-court-civil-code-ii" target="_blank" rel="noopener noreferrer" class="">https://www.lawparks.com/ask/supreme-court-civil-code-ii</a> 。</p>
+<p>截取网站图片如下：</p>
+<p><img decoding="async" loading="lazy" alt="lawparks.com 的垃圾内容" src="https://lizhenyu.top/assets/images/lawparks.com.shit-bc6cd64acc296db8a9ed8443016db0d3.avif" width="2458" height="5854" class="img_ci_5"></p>
+<p>这据图上说，是个律师写的。真不知道它是怎么当上律师的。<sup><a href="https://lizhenyu.top/blog/i-was-told-there-is-property-interpretation-2#user-content-fn-1-6d8b28" id="user-content-fnref-1-6d8b28" data-footnote-ref="true" aria-describedby="footnote-label" class="anchorTargetStickyNavbar_OS_M">1</a></sup></p>
+<p>还有另一个链接：<a href="https://www.yudu.gov.cn/ydxxxgk/c100257mgs/202012/674f7d7da9df4e8cba7929a482fdf3a2.shtml" target="_blank" rel="noopener noreferrer" class="">https://www.yudu.gov.cn/ydxxxgk/c100257mgs/202012/674f7d7da9df4e8cba7929a482fdf3a2.shtml</a> ，是于都县政府名下，如图所示。</p>
+<p><img decoding="async" loading="lazy" alt="yudu.gov.cn 的垃圾内容" src="https://lizhenyu.top/assets/images/yudu.gov.cn.shit-91dc07fbc928effd52e496cafb3cc3c7.avif" width="2458" height="3566" class="img_ci_5"></p>
+<p>据说是一个乡镇上传的，已经误导许多人了。图上显示<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>800</mn><mo>+</mo></msup></mrow><annotation encoding="application/x-tex">800^+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7713em"></span><span class="mord">80</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7713em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span>的人读过这篇垃圾推送。</p>
+<p>我平时不太喜欢用威科先行之类的数据库。前端设计又卡顿又臃肿，后端和数据组织方式也好不到哪去。但这次我确实用了，而且仔细检视了最高人民法院官方网站等可靠信源。今天（2025/12/1）绝对不会有什么“物权编司法解释二”。</p>
+<p>但是有许多人告诉我有这篇解释。包括官方的政府部门，和“执业律师”。更不用说遍地都是的 AIGC 内容农场了。</p>
+<p>推荐一个浏览器扩展，叫<em>uBlacklist</em>，经<em>绅士喵</em>的<a href="https://blog.hentioe.dev/posts/google-bing-search-blacklist.html" target="_blank" rel="noopener noreferrer" class="">这篇</a>文章介绍得知的。用法很简单，也可以稍微参考其文章。</p>
+<p>只要把这些站点（特别是 lawparks.com）加入黑名单，就再也不会搜到了。一劳永逸，不亦乐乎。</p>
+<p>我记得，初学物权法的时候，我隐约有印象经历过同样的事情。许多黑心机构为了区区流量连法都可以自己造，其大胆程度让人叹为观止。</p>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorTargetStickyNavbar_OS_M sr-only" id="footnote-label">Footnotes<a href="https://lizhenyu.top/blog/i-was-told-there-is-property-interpretation-2#footnote-label" class="hash-link" aria-label="Footnotes的直接链接" title="Footnotes的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="anchorTargetStickyNavbar_OS_M" id="user-content-fn-1-6d8b28">
+<p>如果是在本人不知情的情况下被冒用的话。 <a href="https://lizhenyu.top/blog/i-was-told-there-is-property-interpretation-2#user-content-fnref-1-6d8b28" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content>
+        <author>
+            <name>李振宇</name>
+        </author>
+        <category label="law" term="law"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus 使用笔记]]></title>
         <id>https://lizhenyu.top/blog/how-to-use-docusaurus</id>
