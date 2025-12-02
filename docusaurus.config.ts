@@ -115,7 +115,7 @@ const config: Config = {
       title: "首页",
       logo: {
         alt: "网站 Logo",
-        src: "img/logo.svg",
+        src: "img/logo.svgz",
       },
       items: [
         {
