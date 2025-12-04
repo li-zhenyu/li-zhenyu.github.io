@@ -2,12 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lizhenyu.top/blog</id>
     <title>李振宇的主页 Blog</title>
-    <updated>2025-12-02T00:00:00.000Z</updated>
+    <updated>2025-12-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lizhenyu.top/blog"/>
     <subtitle>李振宇的主页 Blog</subtitle>
     <icon>https://lizhenyu.top/img/avatar.ico</icon>
     <rights>著作权所有 © 2025 李振宇</rights>
+    <entry>
+        <title type="html"><![CDATA[耍小聪明：如何每次都写一遍很长的名字]]></title>
+        <id>https://lizhenyu.top/blog/trick-to-handle-long-name</id>
+        <link href="https://lizhenyu.top/blog/trick-to-handle-long-name"/>
+        <updated>2025-12-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今天交了这么一个作业，用了$\LaTeX$，其中一段：]]></summary>
+        <content type="html"><![CDATA[<p>今天交了这么一个作业，用了<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8988em;vertical-align:-0.2155em"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6833em"><span style="top:-2.905em"><span class="pstrut" style="height:2.7em"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.4678em"><span style="top:-2.7845em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em"></span><span class="mord textrm">X</span></span></span></span></span></span>，其中一段：</p>
+<div class="language-latex codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-latex codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token plain">\newcommand{\nowsfjs}{2020年《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（一）》}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">\newcommand{\futuresfjs}{2025年《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（二）（征求意见稿）》}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">\newcommand{\pifu}{2002年《最高人民法院关于建设工程价款优先受偿权问题的批复》}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">\newcommand{\oldsfjsa}{2004年《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释》}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">\newcommand{\oldsfjsb}{2018年《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释（二）》}</span><br></span></code></pre></div></div>
+<p>然后正文部分大概像这样：</p>
+<div class="language-latex codeBlockContainer_OmDh theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_JSae"><pre tabindex="0" class="prism-code language-latex codeBlock_yp_n thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines__fVw"><span class="token-line" style="color:#393A34"><span class="token plain">某某制度，这是\oldsfjsb 的规定，在现行的\nowsfjs 中基本保留。\futuresfjs 则对其加以细化……</span><br></span></code></pre></div></div>
+<p>我想，这样会让我看上去很认真，也能让字数显得多一点。</p>]]></content>
+        <author>
+            <name>李振宇</name>
+        </author>
+        <category label="law" term="law"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[要不要用个图床]]></title>
         <id>https://lizhenyu.top/blog/what-if-a-3rd-party-image-host</id>
@@ -231,8 +247,8 @@
         <id>https://lizhenyu.top/blog/impossible-to-restate</id>
         <link href="https://lizhenyu.top/blog/impossible-to-restate"/>
         <updated>2025-10-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。]]></summary>
-        <content type="html"><![CDATA[<p>我上线这个博客，本来是想写一个“民法总则重述”，按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。</p>
+        <summary type="html"><![CDATA[我上线这个博客，本来是想写一个“民法总则重述”（restatement），按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。]]></summary>
+        <content type="html"><![CDATA[<p>我上线这个博客，本来是想写一个“民法总则重述”（restatement），按部就班地依照《总则编》的顺序安排，简单介绍相应的法律规范、司法解释、指导案例。当时想象的是，顺次看完这些规范文本，知道术语的意思，就懂得民法总则了。现在发现其实做不到。</p>
 <p>介绍到“自然人”一章的时候，我发现“自然人”这章规定的内容，高度依赖于法律行为相关的法律规范。因为这一部分本身不是所谓的“人法”，而只是权利和行为法律规范中关于自然人的部分。</p>
 <p>所以打算把写作思路调整一下。择日重新写一写。我觉得应该考虑改名叫做“速通民法总则手册”之类的。因为写这个文档目的就是想给零基础的读者阅读的，写得尽量浅显，尽量方便快速上手。虽然这样的读者很少。但是我本身就是基于兴趣来整理这个文档，想要服务于不了解但是感兴趣的读者。</p>
 <p>总之我坦言，这个文档的写作难度远超过我的预期。暂时不打算放弃，等我仔细研究一下。</p>
