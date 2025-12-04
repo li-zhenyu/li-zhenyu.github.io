@@ -68,7 +68,7 @@ const config: Config = {
               const { blogPosts, defaultCreateFeedItems, ...rest } = params;
               return defaultCreateFeedItems({
                 // keep only the 50 most recent blog posts in the feed
-                blogPosts: blogPosts.filter((item, index) => index < 50),
+                blogPosts: blogPosts.filter((item, index) => index < 500),
                 ...rest,
               });
             },
