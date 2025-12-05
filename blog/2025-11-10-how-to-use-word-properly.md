@@ -1,6 +1,6 @@
 ---
 slug: how-to-use-word-properly
-title: 使用 Word 的正确方式
+title: 使用Word的正确方式
 authors: [li-zhenyu]
 ---
 

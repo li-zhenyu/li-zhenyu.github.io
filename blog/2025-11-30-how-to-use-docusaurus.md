@@ -1,6 +1,6 @@
 ---
 slug: how-to-use-docusaurus
-title: Docusaurus 使用笔记
+title: Docusaurus使用笔记
 authors: [li-zhenyu]
 tags: 
   - site
