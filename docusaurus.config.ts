@@ -63,6 +63,7 @@ const config: Config = {
           blogSidebarCount: "ALL",
           feedOptions: {
             type: "all",
+            xslt: true,
             copyright: `著作权所有 © ${new Date().getFullYear()} 李振宇`,
             createFeedItems: async (params) => {
               const { blogPosts, defaultCreateFeedItems, ...rest } = params;
@@ -130,16 +131,6 @@ const config: Config = {
         { to: "/links", label: "友链", position: "right" },
         { to: "/comments", label: "留言板", position: "right"},
         { to: "/about", label: "关于", position: "right" },
-        {
-          href: "https://github.com/li-zhenyu/",
-          label: "GitHub",
-          position: "right",
-        },
-        {
-          href: "mailto:lizhenyu66666666@outlook.com",
-          label: "邮箱",
-          position: "right",
-        },
       ],
     },
     footer: {

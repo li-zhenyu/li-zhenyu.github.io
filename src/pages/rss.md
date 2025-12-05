@@ -6,13 +6,16 @@ title: RSS
 
 ## 订阅本站的 Blog
 
-本站博客提供订阅功能，而且会全文完整推送，最多推送最新的 500 条[^1]。读者可以选择以下链接其一，使用新闻阅读器订阅本站：
+本站博客提供订阅功能，而且会全文完整推送，最多推送最新的 500 条[^1]。
+
+读者可以选择以下链接其一，使用新闻阅读器订阅本站：
 
 [^1]: 对于个人站点而言完全够用了。
 
 - [RSS](pathname:///blog/rss.xml)
 - [Atom](pathname:///blog/atom.xml)
-- [JSON](pathname:///blog/feed.json)
+
+如果不确定该试试哪个，或者不知道这些链接有什么用，请看[这里](pathname:///blog/rss.xml)。
 
 <!--pathname make Docusaurus happy-->
 

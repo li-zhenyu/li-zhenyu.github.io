@@ -1,10 +1,14 @@
 li-zhenyu:
   name: 李振宇
+  url: "/about"
+  # discription: ""
   # title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
   # url: https://linkedin.com/in/yangshun
   image_url: "/img/logo.svg"
   page: true
-  # socials:
+  socials:
+    github: li-zhenyu
+    email: lizhenyu66666666@outlook.com
     # x: yangshunz
     # linkedin: yangshun
     # github: yangshun
