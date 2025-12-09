@@ -46,7 +46,7 @@ const config: Config = {
       {
         docs: {
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex,{output: 'mathml'}],
+          rehypePlugins: [[rehypeKatex, {output: 'mathml'}]],
           sidebarPath: "./sidebars.ts",
           showLastUpdateTime: true,
           // Please change this to your repo.
@@ -56,7 +56,7 @@ const config: Config = {
         },
         blog: {
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex, {output: 'mathml'}],
+          rehypePlugins: [[rehypeKatex, {output: 'mathml'}]],
           showReadingTime: true,
           showLastUpdateTime: true,
           blogSidebarTitle: "全部文章", //默认为“Recent Posts”
