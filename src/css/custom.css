@@ -61,5 +61,7 @@ height: 40ex;
 
 body{
   text-autospace: normal;
-  text-spacing: ideograph-alpha ideograph-numeric;
+  text-align: justify;
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
