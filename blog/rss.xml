@@ -4,11 +4,32 @@
         <title>李振宇的主页 Blog</title>
         <link>https://lizhenyu.top/blog</link>
         <description>李振宇的主页 Blog</description>
-        <lastBuildDate>Fri, 05 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <copyright>著作权所有 © 2025 李振宇</copyright>
+        <item>
+            <title><![CDATA[四季的羁旅——2025年度总结]]></title>
+            <link>https://lizhenyu.top/blog/seasons-2025</link>
+            <guid>https://lizhenyu.top/blog/seasons-2025</guid>
+            <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[seasons这个系列是我的年度总结。也即一年一度的谜语人环节。这一系列通过精心修辞过的文本来梳理我过去一年的经历和想法，见闻和心情。]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-tip admonition_qcFn alert alert--success"><div class="admonitionHeading_QbIs"><span class="admonitionIcon_Yvg2"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_njgP"><p><a class="" href="https://lizhenyu.top/blog/tags/seasons">seasons</a>这个系列是我的年度总结。也即一年一度的谜语人环节。这一系列通过精心修辞过的文本来梳理我过去一年的经历和想法，见闻和心情。</p></div></div>
+<p>尊敬的读者朋友们：</p>
+<p>四季的羁旅将要抵达。请允许我衷心向您致以2026的新年问候，祝喜乐在左右，愿你们平安！</p>
+<p>受祝福的、有希望的、向着流星许愿过的2025年至此圆满。一切愿望如同预言，终于实现或许在出人意料的道路上，是蜿蜒曲折的，是指引着我的。</p>
+<p>在春天与故交久别重逢，在夏天与远方不期而遇，在秋天的土地上勤恳耕种，在冬天的初雪里映照真心。</p>
+<p>惊喜的、不期而遇的、意义非凡的2025年，我在泉眼之间散步，在棋局内外沉思，为纸醉烟迷而驻足，为阔别相逢而举杯。所见证的，即正在经历的。</p>
+<p>写下让自己平静的，写下让人喝彩的，也写下自作聪明、弄巧成拙的。自证的、尝试的、教训的、自豪的，一一是里程碑。</p>
+<p>曾经觉得海明威的《老人与海》，标题四个字胜过内容的千言万语。当时我未曾拜读，至今仍未。但我成了拖着鱼骨头的。</p>
+<p>遄行在羁旅中的、被役使的、忘记始所来终所去的，在春风一夜的雪中，所想到的：在意的、珍重的、懂得的、争取的，这样的永不相背叛相抛弃。乞来的、接来的、加上的、身外的，这样的让人自相背叛抛弃。</p>
+<p>记忆会失真。留下对我而言重要的。记忆的取舍比自己更真诚。记忆常常指着我有时忽略的。散步的地方，只去过一次，我却记得，因为那次是带着喜悦去的。</p>
+<p>往事我所在意的、翻篇的、未完待续的、前进的，以不同的笔触相谱写。我所写下的，所翻阅的，接驳数年前那个美妙的开端。</p>
+<p>破茧的、挣脱自缚的、勇敢的、与既往相违而未与心相违的，所收集的鲜花与瓦砾，也都是独特的。因为我抓住想要抓住的，说出想要说出的，舍下想要舍下的。</p>
+<p>羁旅所以飘摇的，是示以獠牙的，如同战士相殊死的，就是荣耀其功勋的；羁旅凭以顺遂的，是相与守护的，如同君子所戴佩的，就是证明他身份的。</p>]]></content:encoded>
+            <category>seasons</category>
+        </item>
         <item>
             <title><![CDATA[现已启用text-autospace]]></title>
             <link>https://lizhenyu.top/blog/now-we-have-text-autospace</link>
