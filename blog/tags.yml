@@ -9,6 +9,6 @@ site:
 docs-related: 
   label: docs-related
   description: 关于本站的文档。
-annual:
+seasons:
   label: seasons
   description: 历年年度总结。
