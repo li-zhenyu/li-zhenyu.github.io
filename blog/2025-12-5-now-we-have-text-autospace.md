@@ -4,6 +4,7 @@ slug: now-we-have-text-autospace
 authors: [li-zhenyu]
 tags:
   - site
+draft: true
 ---
 
 今年开始许多浏览器支持CSS的`text-autospace`。尽管还有许多浏览器不支持。总之早晚都会支持的。本站选择拥抱这一新标准。

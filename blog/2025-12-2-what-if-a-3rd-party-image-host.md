@@ -2,6 +2,7 @@
 slug: what-if-a-3rd-party-image-host
 title: 要不要用个图床
 authors: [li-zhenyu]
+draft: true
 tags:
   - site
 ---

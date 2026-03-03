@@ -201,4 +201,8 @@ export default function FooterWrapper(props: Props): ReactNode {
 
 ## 草稿
 
-将`2001-02-03-example.md`更名为`DRAFT_2001-02-03-example.md`即可。
+设置文档头部：
+
+```yaml
+draft: true
+```

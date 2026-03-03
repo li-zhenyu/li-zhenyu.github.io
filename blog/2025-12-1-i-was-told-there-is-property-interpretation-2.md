@@ -2,6 +2,7 @@
 slug: i-was-told-there-is-property-interpretation-2
 title: 有人告诉我现有《最高人民法院关于适用〈中华人民共和国民法典〉物权编的解释（二）》
 authors: [li-zhenyu]
+draft: true
 tags: 
   - law
 ---

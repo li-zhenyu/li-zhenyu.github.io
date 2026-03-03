@@ -2,6 +2,7 @@
 slug: how-to-use-word-properly
 title: 使用Word的正确方式
 authors: [li-zhenyu]
+draft: true
 ---
 
 ## 问题描述

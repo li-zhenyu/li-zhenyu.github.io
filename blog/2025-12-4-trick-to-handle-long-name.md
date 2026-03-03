@@ -2,6 +2,7 @@
 title: 耍小聪明：如何每次都写一遍很长的名字
 slug: trick-to-handle-long-name
 authors: [li-zhenyu]
+draft: true
 tags:
   - law 
 ---
