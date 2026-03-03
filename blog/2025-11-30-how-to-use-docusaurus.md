@@ -6,13 +6,9 @@ tags:
   - site
 ---
 
-使用Docusaurus的站长喜欢做一件事情——记录自己如何使用Docusaurus。不像Hexo或者Hugo那种选主题然后配置，不行就换掉主题的使用方式，Docusaurus几乎只有这一个主题。万幸它使用React。虽然我此前完全没有接触过JavaScript/TypeScript。我选择的是后者，因为反正两者都没接触过，干脆就选择听上去更先进的了。
-
-我的配置和swizzle出来的组件，其中的代码提供读者随便参考。[许可协议](/about#许可协议)所指称的“源代码”主要是指文章页面对应的`.md`文件（以后或许会有其他的格式，比如`.tex`），为了防止变相抄袭而加以限制。组件、配置之类的东西，我的站点做得相对简陋，其中大多数本就没有著作权可言。
+Docusaurus的配置和使用，供我作为备忘。
 
 <!-- truncate -->
-
-本站的源码托管在https://github.com/li-zhenyu/li-zhenyu.github.io 。以下是具体问题的介绍。
 
 :::warning
 我的Docusaurus版本是3.9.2，node版本是24。
@@ -34,7 +30,7 @@ public-hoist-pattern[]=*@docusaurus/*
 
 正如[关于](/about)页面所说，本站使用GitHub Actions自动构建。这样本地预览一下，没问题直接`git commit -m "xxx" && git pull`就行了。
 
-构建流程是AI帮我写的，所以容易获取，就不贴出来了。也可以参考见本站源代码的`.github/workflows/build.yml`。
+构建流程是vibe coding得到的，即`.github/workflows/build.yml`。
 
 ## Cusdis评论区设置
 
@@ -202,3 +198,7 @@ export default function FooterWrapper(props: Props): ReactNode {
   );
 }
 ```
+
+## 草稿
+
+将`2001-02-03-example.md`更名为`DRAFT_2001-02-03-example.md`即可。
