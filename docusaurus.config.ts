@@ -130,6 +130,7 @@ const config: Config = {
           label: "文档",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        { to: "pathname:///tracker", label: "追踪黑名单", position: 'left'},
         //以下是右边
         { to: "/rss", label: "RSS", position: "right" }, //Fuck you Docusaurus!
         { to: "/links", label: "友链", position: "right" },
